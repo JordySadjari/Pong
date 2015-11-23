@@ -1,4 +1,4 @@
-package screens 
+﻿package screens 
 {
 	import actors.AI;
 	import actors.Ball;
@@ -14,7 +14,7 @@ package screens
 	
 	/**
 	 * ...
-	 * @author erwin henraat
+	 * @author Jordy Sadjari
 	 */
 	public class GameScreen extends Screen
 	{
@@ -30,7 +30,7 @@ package screens
 		private function init(e:Event):void 
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
-				for (var i:int = 0; i < 2; i++) 
+				for (var i:int = 0; i < 1; i++) 
 			{
 				balls.push(new Ball());
 				addChild(balls[i]);
