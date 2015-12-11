@@ -1,4 +1,4 @@
-package actors 
+﻿package actors 
 {
 	import flash.display.MovieClip;
 	
@@ -11,7 +11,8 @@ package actors
 		
 		public function Paddle() 
 		{
-			addChild(new PaddleArt());
+			addChild(new PaddleArt1());
+			
 		}
 		
 	}

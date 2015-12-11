@@ -1,4 +1,4 @@
-package actors 
+﻿package actors 
 {
 	import utils.Controller;	
 	import flash.events.Event;
@@ -10,6 +10,12 @@ package actors
 	{
 		private var controller:Controller;
 		private var speed:Number = 0;
+		private var _maxSpeed:Number = 30;		
+		
+		public function set maxSpeed(s:Number):void
+		{
+			_maxSpeed = s;
+		}
 		
 		public function Player() 
 		{
